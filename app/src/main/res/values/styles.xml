@@ -1,8 +1,23 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Pooteeweet" parent="Base.Pooteeweet">
         <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="Base.Pooteeweet" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#873217</item>
+        <item name="colorPrimaryDark">#849DA8</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="Widget.Pooteeweet.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/primary_material_dark</item>
+        <item name="theme">@style/ThemeOverlay.Pooteeweet.ActionBar</item>
+    </style>
+
+    <style name="ThemeOverlay.Pooteeweet.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/primary_material_light</item>
     </style>
 
 </resources>

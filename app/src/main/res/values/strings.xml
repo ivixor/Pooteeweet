@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Pooteeweet</string>
-
-    <string name="hello_world">Hello world!</string>
+    
     <string name="action_settings">Settings</string>
+    
+    <string name="label_log_into_twitter">Login</string>
+    <string name="label_failed_to_login">Login failed</string>
+    <string name="label_retry_login">Retry login</string>
 </resources>
